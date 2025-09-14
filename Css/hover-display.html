@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    *{margin: 0;}
+    .btn{
+      padding: 8px 16px;
+      border-radius: 4px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    
+    .mt-10{
+      margin-top: 10px;
+    }
+    .btn-primary{
+      background-color: #84c1e9;
+
+    }
+    .btn-primary:hover{
+            background-color: #2980b9;
+
+
+    }
+    .menu>li>ul{
+      display: none;
+    }
+    .menu>li:hover{
+      background-color: red;
+    }
+    .menu>li:hover>ul{
+      display: block;
+    }
+    ul.menu>li>:nth-child(odd){
+      background-color: aquamarine;
+    }
+  </style>
+  <title>Hover ve Display</title>
+</head>
+<body>
+  <p class="mt-10">Lorem ipsum <a href="#" class="btn btn-primary">İncele</a> dolor sit amet consectetur.</p>
+  
+  <ul class="menu">
+    <li>Lorem, ipsum.
+      <ul class="drop-down">
+        <li><a href="">Lorem.</a></li>
+        <li><a href="">Deserunt!</a></li>
+        <li><a href="">A.</a></li>
+      </ul>
+    </li>
+    <li>Fuga, ullam.
+      <ul>
+        <li><a href="">Lorem.</a></li>
+        <li><a href="">Saepe.</a></li>
+        <li><a href="">Odit?</a></li>
+      </ul>
+    </li>
+    <li>Officia, veniam.</li>
+    <li>Suscipit, eligendi?</li>
+    <li>Quod, quidem.</li>
+  </ul>
+</body>
+</html>
