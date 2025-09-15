@@ -39,6 +39,16 @@ header{
   min-height: 20px;
   padding: 20px 0;
 }
+header,
+main{
+  background-color: var(--body-color);
+  min-height: 20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+header{
+  border-bottom: 1px solid var(--silver);
+}
 header>nav{
   width: 800px;
   margin: 0 auto;
@@ -71,4 +81,71 @@ header>nav>ul>li:last-child>a{
 header>nav>ul>li:last-child>a:hover{
   background-color: var(--dark-blue);
   color:var(--blue)
+}
+
+main{
+width: var(--box-size);
+margin: 0 auto 30px;
+border: 1px solid var(--silver);
+border-radius: 4px;
+padding: 20px;
+min-height: 800px;
+}
+aside,
+section{
+  float: left;
+}
+aside{
+  width: 30%;
+  padding: 20px
+}
+aside>ul{
+  list-style: none;
+  min-height: 600px;
+}
+aside>ul>li{
+  margin-bottom: 10px;
+}
+aside>ul>li>a{
+  color: var(--link-color);
+  padding: 6px 10px;
+  display: block;
+
+}
+aside>ul>li>a:hover{
+  color:var(--link-color-hover) ;
+}
+section{
+  width: 70%;
+}
+article,article>header{
+  background-color: var(--body-color);
+}
+article{
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+
+}
+article>header{
+padding: 0px;
+border-bottom: none;
+}
+article>footer{
+  padding: 10px;
+  
+}
+article>footer>a{
+  color: var(--link-color);
+}
+article>p{
+  margin-bottom: 10px;
+}
+img{
+  width: 100%;
+  padding: 4px;
+  border: 1px solid var(--bg-color);
+  background-color: var(--body-color);
+  border-radius: 4px;
+  margin: 10px 10px;
 }
