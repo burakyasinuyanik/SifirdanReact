@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root{
+    --green: #2ecc71;
+    --blue: #3498db;
+    --yellow: #f1c40f;
+    --red: #e74c3c;
+    --dark-blue: #34495e;
+    --midnight-blue: #2c3e50;
+    --light-white: #ecf0f1;
+    --silver: #bdc3c7;
+    
+    }
+    body{
+      background-color: var(--silver);
+      margin: 0;
+      padding: 0;
+    }
+    .flex-container{
+      width: 800px;
+      margin: auto;
+      background-color:var(--light-white) ;
+      display: flex;
+      flex-direction: column;
+    }
+    .item{
+      background-color: var(--yellow);
+      margin: 10px;
+    }
+    ul{
+      display: flex;
+      list-style: none;
+      width: 800px;
+      /* flex-direction: row-reverse; */
+      justify-content: flex;
+      padding: 20px;
+      background-color: var(--light-white);
+      margin:0 0 5px;
+    }
+    nav{
+      background-color: var(--yellow);
+      margin: 20px;
+    }
+
+  </style>
+  <title>Flex Box</title>
+</head>
+<body>
+  <nav>
+  <ul>
+  <li>Lorem.</li>
+    <li>Nemo.</li>
+    <li>Nam.</li>
+    <li>Repudiandae!</li>
+    <li>Ea.</li>
+  </ul>
+  </nav>
+  <div class="flex-container">
+    <div class="item">Lorem.</div>
+    <div class="item">Consequuntur.</div>
+    <div class="item">Perferendis.</div>
+    <div class="item">Sint.</div>
+  </div>
+
+</body>
+</html>
