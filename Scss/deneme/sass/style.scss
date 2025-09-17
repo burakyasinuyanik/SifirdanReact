@@ -1,8 +1,10 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+@import 'variables';
+@import 'base';
+@import 'nav';
+@import 'container';
+@import 'parent-selector';
+@import 'mixin_card';
+@import 'extend-button';
+@import 'interpolition';
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  text-align: center;
-}
+
