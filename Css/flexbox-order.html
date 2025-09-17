@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  :root{
+    --green: #2ecc71;
+    --blue: #3498db;
+    --yellow: #f1c40f;
+    --red: #e74c3c;
+    --dark-blue: #34495e;
+    --midnight-blue: #2c3e50;
+    --light-white: #ecf0f1;
+    --silver: #bdc3c7;
+    
+    }
+    body{
+      background-color: var(--silver);
+      margin: 0;
+      padding: 0;
+    }
+    main{
+      background-color: var(--light-white);
+      width: 800px;
+      margin: 0 auto;
+      display: flex;
+      padding: 20px;
+      border-radius: 30px;
+    }
+    
+    @media(max-width:575px)
+    {
+        main{
+          flex-direction: column;
+          width: calc(100% -40px);
+              }
+      aside{
+      order:1;
+    }
+    }
+  </style>
+  <title>Flex Box Order</title>
+</head>
+<body>
+  <main class="container">
+    <aside>
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="">Lorem.</a></li>
+        <li><a href="">Illum.</a></li>
+        <li><a href="">Quis!</a></li>
+        <li><a href="">Quisquam.</a></li>
+        <li><a href="">Officia?</a></li>
+      </ul>
+    </aside>
+  <section>
+    <article>
+      <h2>Lorem, ipsum.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, velit!</p>
+      <p>Consequatur voluptate ratione nihil provident? Blanditiis velit nisi consectetur qui?</p>
+      <p>Ipsa numquam placeat ex veritatis saepe recusandae tenetur modi quia.</p>
+    </article>
+    <article>
+      <h2>Ex, itaque.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, doloribus.</p>
+      <p>Qui corporis delectus dolorum minima quaerat assumenda tempora voluptas aliquam!</p>
+      <p>Dolore nostrum, nulla vitae magni reiciendis minima possimus? Animi, facere.</p>
+    </article>
+    <article>
+      <h2>Fugit, esse!</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, rem!</p>
+      <p>Quasi alias nesciunt qui fugit perspiciatis optio quod numquam culpa.</p>
+      <p>A expedita magnam accusamus impedit illum, quam dolorum explicabo omnis.</p>
+    </article>
+    <article>
+      <h2>Error, minus?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatibus!</p>
+      <p>Suscipit dolores voluptate neque culpa voluptatibus maiores consequatur? Cupiditate, fuga.</p>
+      <p>A corrupti maxime culpa ut libero nam eos dolore qui.</p>
+    </article>
+  </section>
+  </main>
+
+</body>
+</html>

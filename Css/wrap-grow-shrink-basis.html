@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin:0;
+      background-color: aliceblue;
+    }
+    .container{
+      max-width: 800px;
+      margin: 0 auto;
+      border-radius: 8px;
+      background-color: aqua;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+
+    }
+    .card{
+      box-sizing: border-box;
+      padding: 10px 5px;
+      border-radius: 4px;
+      border: 1px solid black;
+      /* margin-bottom: 10px;
+      margin: 10px; */
+      flex-grow: 1;
+      flex-basis: 250px;
+      gap: 10px;
+    }
+    .card>img{
+      box-sizing: border-box;
+      width: 100%;
+      background-color: white;
+      padding: 4px;
+      border:1px solid black;
+    }
+    .big-card{
+      flex-grow: 2;
+      flex-basis: 450px;
+    }
+  </style>
+  <title>Flexbox-wrap-grow-shrink-basis</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card big-card">
+      <img src="https://picsum.photos/id/231/500/300" alt="">
+      <h2>Lorem, ipsum dolor.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, maiores!</p>
+      <p>Impedit pariatur fugiat nostrum non ullam deleniti voluptatem consequuntur modi?</p>
+    </div>
+    <div class="card ">
+      <img src="https://picsum.photos/id/232/500/300" alt="">
+      <h2>Voluptatum, pariatur ex.</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, praesentium!</p>
+      <p>Odit quod repudiandae voluptatum non nemo itaque dolores est ad?</p>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/id/233/500/300" alt="">
+      <h2>Voluptatum, vel cumque.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, omnis.</p>
+      <p>Facilis eos reprehenderit possimus nostrum vel corporis corrupti quibusdam nulla?</p>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/id/234/500/300" alt="">
+      <h2>Quos, quibusdam maiores.</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, sed.</p>
+      <p>Quibusdam mollitia ratione sint veritatis, excepturi nostrum molestias vitae provident.</p>
+    </div>
+  </div>
+</body>
+</html>
