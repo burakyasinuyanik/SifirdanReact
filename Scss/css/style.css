@@ -79,4 +79,28 @@ nav > ul > li > a:hover {
 .icon-cancan {
   background-image: url("/assets/icons/cancan.svg");
   font-size: 64px;
+}
+
+.box {
+  background-image: url(https://picsum.photos/id/1/100/100);
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
